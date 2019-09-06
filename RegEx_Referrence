@@ -1,0 +1,41 @@
+RegEx	Description 
+.	matches any character except newline
+\	escape character
+\w	word character [a-zA-Z_0-9]
+\W	non-word character [^a-zA-Z_0-9]
+\d	Digit [0-9]
+\D	non-digit [^0-9]
+\n	new line
+\r	carriage return 
+\t	tabulation 
+\s	white space 
+\S	non-white space 
+^	beginning of a line 
+$	end of a line 
+\A	beginning of the string (multi-line match) 
+\Z	end of the string (multi-line match) 
+\b	word boundary, boundary between \w and \W 
+\B	not a word boundary 
+\<	beginning of a word 
+\>	end of a word 
+{n}	matches exaclty n times 
+{n,}	matches a minimum of n times 
+{x,y}	matches a min of x and max of y 
+(a|b)	‘a’ or ‘b’ 
+*	matches 0 or more times 
++	matches 1 or more times 
+?	matches 1 or 0 times 
+*?	matches 0 or more times, but as few as possible 
++?	matches 1 or more times, but as few as possible 
+??	matches 0 or 1 time 
+[abc]	a single character of: a, b, or c
+[^abc]	any single character except: a, b, or c
+[a-z]	any single character in the range a-z
+[a-zA-Z]	any single character in the range a-z or A-Z
+(…)	capture everything enclosed
+a?	zero or one of a
+a*	zero or more of a
+a+	one or more of a
+a{3}	exactly 3 of a
+a{3,}	3 or more of a
+a{3,6}	between 3 and 6 of a
